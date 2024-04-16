@@ -1,0 +1,6 @@
+<launch>
+    <param name="work_space_path" type="string" value="$(find calib502)" />
+    <node pkg="rviz"  type="rviz"  name="rviz"  args="-d $(find calib502)/rviz/calib.rviz"></node>
+    <node pkg="calib502"  type="calib" name="calib" output="screen" ></node>
+    <!-- launch-prefix="xterm -e gdb -ex run - -args" -->
+</launch>

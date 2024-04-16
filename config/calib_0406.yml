@@ -1,0 +1,136 @@
+%YAML:1.0
+frameCount: 7
+calibrationDate: "Fri Jun 17 16:38:29 2022\n"
+nav: 
+  width: 2048
+  height: 2048
+  r_mat: !!opencv-matrix
+    rows: 3
+    cols: 1
+    dt: d
+    data: [0., 0., 0.]
+  t_mat: !!opencv-matrix
+    rows: 3
+    cols: 1
+    dt: d
+    data: [0., 0., 0.]
+  camera_mat: !!opencv-matrix
+    rows: 3
+    cols: 3
+    dt: d
+    data: [2.18789999e+03, 0., 1.05068671e+03, 0., 2.18789999e+03, 1.05004203e+03, 0., 0., 1.]
+  dist_coeffs: !!opencv-matrix
+    rows: 1
+    cols: 5
+    dt: d
+    data: [7.60909482e-04, -4.19009362e-06, 1.76593675e-06, -1.75905342e-06, -2.35187346e-09]
+
+
+obs: 
+  width: 1024
+  height: 1024
+  r_mat: !!opencv-matrix
+    rows: 3
+    cols: 1
+    dt: d
+    data: [-0.02364545, -0.01609025, 0.02037207]
+  t_mat: !!opencv-matrix
+    rows: 3
+    cols: 1
+    dt: d
+    data: [-0.22052856, -0.88715046, -0.37117334]
+  camera_mat: !!opencv-matrix
+    rows: 3
+    cols: 3
+    dt: d
+    data: [555.23791954, 0., 524.7161056, 0., 555.23791954, 503.66804429, 0., 0., 1.]
+  dist_coeffs: !!opencv-matrix
+    rows: 1
+    cols: 5
+    dt: d
+    data: [4.42641257e-02, 2.62317459e-03, 3.00380143e-05, 1.27891146e-04, 2.00871937e-04]
+
+
+ir: 
+  width: 640
+  height: 512
+  r_mat: !!opencv-matrix
+    rows: 3
+    cols: 1
+    dt: d
+    data: [0.03883934, 0.02876527, 0.00416685]
+  t_mat: !!opencv-matrix
+    rows: 3
+    cols: 1
+    dt: d
+    data: [-0.19385176, 0.06335942, 0.45754584]
+  camera_mat: !!opencv-matrix
+    rows: 3
+    cols: 3
+    dt: d
+    data: [1.47250860e+03, 0., 3.18136291e+02, 0., 1.47250860e+03, 2.60988117e+02, 0., 0., 1.]
+  dist_coeffs: !!opencv-matrix
+    rows: 1
+    cols: 5
+    dt: d
+    data: [1.59474697e-04, 4.55608728e-06, 2.26673567e-05, 3.52711512e-05, -7.59221202e-08]
+
+
+multi_spectral: 
+  width: 2448
+  height: 2048
+  r_mat: !!opencv-matrix
+    rows: 3
+    cols: 1
+    dt: d
+    data: [0.02625573, 0.01707871, -0.01159819]
+  t_mat: !!opencv-matrix
+    rows: 3
+    cols: 1
+    dt: d
+    data: [-0.11296335, 0.0333918, 0.27687454]
+  camera_mat: !!opencv-matrix
+    rows: 3
+    cols: 3
+    dt: d
+    data: [7.39225284e+03, 0., 1.20154766e+03, 0., 7.39225284e+03, 9.86672913e+02, 0., 0., 1.]
+  dist_coeffs: !!opencv-matrix
+    rows: 1
+    cols: 5
+    dt: d
+    data: [1.03802256e-04, -1.80989190e-06, -3.80743551e-05, 1.68832479e-05, -5.94251214e-09]
+
+
+tof: 
+  r_mat: !!opencv-matrix
+    rows: 3
+    cols: 1
+    dt: d
+    data: [-0.00696956, -0.01666045, 0.00102704]
+  t_mat: !!opencv-matrix
+    rows: 3
+    cols: 1
+    dt: d
+    data: [0.37262937, -0.00386285, 0.00166842]
+
+
+lidar: 
+  r_mat: !!opencv-matrix
+    rows: 3
+    cols: 1
+    dt: d
+    data: [0.01821823, -1.45882257, 2.77058735]
+  t_mat: !!opencv-matrix
+    rows: 3
+    cols: 1
+    dt: d
+    data: [0.3050163, 0.91772943, 0.03480872]
+
+
+binocular: 
+  T: 0.2700000
+  camera_mat: !!opencv-matrix
+    rows: 3
+    cols: 3
+    dt: d
+    data: [2.18789999e+03, 0., 1.05068671e+03, 0., 2.18789999e+03, 1.05004203e+03, 0., 0., 1.]

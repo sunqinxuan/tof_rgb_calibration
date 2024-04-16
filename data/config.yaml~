@@ -1,0 +1,16 @@
+canny_th1_tof: 10
+canny_th2_tof: 25
+canny_th1_nav: 100
+canny_th2_nav: 150
+
+CannyRegistration:
+    max_corr_dist: 100.0
+    max_iterations: 200
+    num_neighbors_cov: 20
+    thres_trs: 1e-6 #m
+    thres_rot: 0.07 #deg
+    ceres:
+        solver_type: sparse_normal_cholesky  # [dense/sparse]_normal_cholesky, [dense/sparse]_schur
+        trust_region_type: LM # LM, DogLeg
+        max_num_iterations: 50
+        minimizer_progress_to_stdout: false
